@@ -111,7 +111,7 @@ class Question {
         //print 1 to 10 and skip by 2
         for (m in 1..10 step 2)
             println(m) // Output :- 1,3,5,7,9
-        //downTo :: descending order 
+        //downTo :: descending order  here 10 is opening value and 7 is closing value
         for (n in 10 downTo 7 )
             println(n) // Output :- 10,9,8,7
         //Descending order with skip by 2
