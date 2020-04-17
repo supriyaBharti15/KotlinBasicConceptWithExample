@@ -103,4 +103,19 @@ class Question {
         }
     }
 ```
+## for loop in Kotlin
+```Kotlin
+//Print number from 1 to 10
+        for (k in 1..10)
+            println(k) // output :- 1,2,3,4,5,6,7,8,9,10
+        //print 1 to 10 and skip by 2
+        for (m in 1..10 step 2)
+            println(m) // Output :- 1,3,5,7,9
+        //downTo :: descending order 
+        for (n in 10 downTo 7 )
+            println(n) // Output :- 10,9,8,7
+        //Descending order with skip by 2
+        for (n in 10 downTo 5 step 2)
+            println(n) // Output :- 10,8,6
+```
 
