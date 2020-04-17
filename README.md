@@ -123,4 +123,21 @@ class Question {
         for(j in 1 until 10)
             println(j) // Output :: 1,2,3,4,5,6,7,8,9
 ```
-
+```Kotlin
+//list in Kotlin
+        val numList = listOf(1,2,3,4,5)
+        for (k in numList)
+            println(k)
+```
+```Kotlin
+//TreeMap in Kotlin
+        val empMap = TreeMap<String, Int>()
+        //inset value in map
+        empMap["emp1"] = 133
+        empMap["emp2"] = 124
+        empMap["emp3"] = 125
+        empMap["emp4"] = 126
+        empMap["emp5"] = 127
+        for ((name,id) in empMap)
+            println("Name ::$name ID:: $id")
+```
