@@ -118,4 +118,9 @@ class Question {
         for (n in 10 downTo 5 step 2)
             println(n) // Output :- 10,8,6
 ```
+```Kotlin
+//half closed range means it will print 10-1=9
+        for(j in 1 until 10)
+            println(j) // Output :: 1,2,3,4,5,6,7,8,9
+```
 
