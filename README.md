@@ -128,6 +128,10 @@ class Question {
         val numList = listOf(1,2,3,4,5)
         for (k in numList)
             println(k)
+            
+            //print elements and its index in list
+        for ((index,elements) in numList.withIndex())
+            println("Elements = $elements at $index")
 ```
 ```Kotlin
 //TreeMap in Kotlin
